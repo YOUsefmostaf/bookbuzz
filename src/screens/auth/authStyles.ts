@@ -1,0 +1,101 @@
+import {StyleSheet} from 'react-native';
+import {AppColors, Fonts, width} from 'theme';
+
+export const styleCodeInput = StyleSheet.create({
+  root: {flex: 1, padding: 20},
+  title: {textAlign: 'center', fontSize: 30},
+  codeFieldRoot: {marginTop: 20},
+  cell: {
+    width: 45,
+    lineHeight: 38,
+    fontSize: 28,
+    borderBottomWidth: 1,
+    color: '#313131',
+    borderColor: '#E6E6E6',
+    top: 10,
+    paddingTop: 20,
+    fontFamily: Fonts.Bold,
+    marginHorizontal: 12,
+    textAlign: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'transparent',
+  },
+  focusCell: {
+    borderColor: '#313131',
+  },
+});
+
+export const authStyle = StyleSheet.create({
+  loginText: {
+    fontFamily: Fonts.CBOLD,
+    fontSize: 18,
+    color: '#FF0F39',
+    marginTop: 28,
+    writingDirection: 'rtl',
+    left: -10,
+  },
+  mobileText: {
+    color: '#313131',
+    fontSize: 13,
+    fontFamily: Fonts.CREG,
+    marginTop: 36,
+    writingDirection: 'rtl',
+    left: -10,
+  },
+  inputNumber: {
+    width: width / 1.1,
+    borderRadius: 18,
+    backgroundColor: 'transparnet',
+    borderColor: '#E6E6E6',
+    alignSelf: 'center',
+    marginTop: 5,
+  },
+  textInputSTyle: {
+    fontFamily: Fonts.CREG,
+    color: '#313131',
+    fontSize: 13,
+    writingDirection: 'rtl',
+  },
+  passwordText: {
+    color: '#313131',
+    fontSize: 13,
+    fontFamily: Fonts.CREG,
+    marginTop: 36,
+    writingDirection: 'rtl',
+    left: -10,
+  },
+  passwordInput: {
+    width: width / 1.1,
+    borderRadius: 18,
+    backgroundColor: 'transparnet',
+    borderColor: '#E6E6E6',
+    alignSelf: 'center',
+    marginTop: 5,
+  },
+  forgotPassText: {
+    fontFamily: Fonts.CREG,
+    fontSize: 14,
+    color: '#313131',
+    textDecorationColor: '#313131',
+    textDecorationLine: 'underline',
+    marginTop: 19,
+    writingDirection: 'rtl',
+    left: -10,
+  },
+  dontHaveAccText: {
+    textAlign: 'center',
+    color: '#000000',
+    fontSize: 12,
+    fontFamily: Fonts.CREG,
+    marginTop: 16,
+    zIndex: 9999,
+  },
+  createNowText: {
+    color: '#FF0F39',
+    fontFamily: Fonts.CBOLD,
+    fontSize: 12,
+    textDecorationColor: '#FF0F39',
+    textDecorationLine: 'underline',
+  },
+});
